@@ -1,3 +1,4 @@
-export default function App() {
-  return <div className="bg-red-400">App</div>;
+import "./index.css";
+export default function App({ name }: { name: string }) {
+  return <div className="bg-red-400">Welcome, {name}</div>;
 }
