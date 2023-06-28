@@ -1,1 +1,2 @@
-export default "./index.tsx";
+const AccessibilityComponent = import("./AccessibilityComponent")
+export default  AccessibilityComponent
