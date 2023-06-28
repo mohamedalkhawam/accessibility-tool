@@ -1,2 +1,1 @@
-const App = import("./src/App");
-export default App;
+export default "./src/components/index.tsx";
